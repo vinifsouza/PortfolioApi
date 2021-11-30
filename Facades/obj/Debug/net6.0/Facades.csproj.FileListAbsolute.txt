@@ -18,3 +18,17 @@
 C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\obj\Debug\net6.0\Facades.dll
 C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\obj\Debug\net6.0\ref\Facades.dll
 C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\obj\Debug\net6.0\Facades.pdb
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\bin\Debug\net6.0\Facades.deps.json
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\bin\Debug\net6.0\Facades.dll
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\bin\Debug\net6.0\ref\Facades.dll
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\bin\Debug\net6.0\Facades.pdb
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\bin\Debug\net6.0\Models.dll
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\bin\Debug\net6.0\Services.dll
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\bin\Debug\net6.0\Services.pdb
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\bin\Debug\net6.0\Models.pdb
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\obj\Debug\net6.0\Facades.csproj.AssemblyReference.cache
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\obj\Debug\net6.0\Facades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\obj\Debug\net6.0\Facades.AssemblyInfoInputs.cache
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\obj\Debug\net6.0\Facades.AssemblyInfo.cs
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\obj\Debug\net6.0\Facades.csproj.CoreCompileInputs.cache
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Facades\obj\Debug\net6.0\Facades.csproj.CopyComplete

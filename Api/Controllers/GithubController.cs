@@ -21,7 +21,8 @@ namespace PortfolioApi.Controllers
         [HttpGet("{userId}", Name = "GetRepositories")]
         public async Task<ActionResult<List<GithubProject>>> Get(string userId)
         {
-            return Ok(await _facade.GetRepositories(userId));
+            var response = await _facade.GetRepositories(userId);
+            return Ok(response);
         }
     }
 }
