@@ -13,10 +13,10 @@ namespace Portfolio.Api.Service.Github.Project
         [Get("users/{userId}/repos")]
         Task<IEnumerable<GithubProject>> GetRepoAsync([Path] string userId);
 
-        [Get("{userId}/{repo}/{branch}/README.md")]
+        [Get("{userId}/{repoName}/{branch}/README.md")]
         Task<string> GetReadmeContentAsync(
             [Path] string userId,
-            [Path] string repo,
+            [Path] string repoName,
             [Path] string branch
         );
     }
