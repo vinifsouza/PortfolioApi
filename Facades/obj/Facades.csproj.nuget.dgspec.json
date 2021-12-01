@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Facades\\Facades.csproj": {}
+    "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Facades/Facades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Facades\\Facades.csproj": {
+    "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Facades/Facades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Facades\\Facades.csproj",
+        "projectUniqueName": "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Facades/Facades.csproj",
         "projectName": "Facades",
-        "projectPath": "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Facades\\Facades.csproj",
-        "packagesPath": "C:\\Users\\fernando.souza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Facades\\obj\\",
+        "projectPath": "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Facades/Facades.csproj",
+        "packagesPath": "/home/vinicius/.nuget/packages/",
+        "outputPath": "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Facades/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fernando.souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/vinicius/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Services\\Services.csproj"
+              "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Services/Services.csproj": {
+                "projectPath": "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Services/Services.csproj"
               }
             }
           }
@@ -68,28 +66,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Models\\Models.csproj": {
+    "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Models/Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Models\\Models.csproj",
+        "projectUniqueName": "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Models/Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\fernando.souza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Models\\obj\\",
+        "projectPath": "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Models/Models.csproj",
+        "packagesPath": "/home/vinicius/.nuget/packages/",
+        "outputPath": "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fernando.souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/vinicius/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -128,36 +124,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Services\\Services.csproj": {
+    "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Services/Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Services\\Services.csproj",
+        "projectUniqueName": "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Services/Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\fernando.souza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Services\\obj\\",
+        "projectPath": "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Services/Services.csproj",
+        "packagesPath": "/home/vinicius/.nuget/packages/",
+        "outputPath": "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fernando.souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/vinicius/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Models\\Models.csproj"
+              "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Models/Models.csproj": {
+                "projectPath": "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Models/Models.csproj"
               }
             }
           }
@@ -192,7 +186,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

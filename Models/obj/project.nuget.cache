@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LYds3PoNl+8gRE1e7VAJ3uXCVnCzLaewOfyScUqqsDPZClKH63fOrYMEIwAR06Kfdnkc2+zo1UJM08duFQ/ZMQ==",
+  "dgSpecHash": "UnMz6BigvqtewxgjtnH7VoH44GaHPKScBp0MlMA0Qb/0qAymeYTesvB1TxyFWXXL9WdUPe3wh+Lw2yelbLWKCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fernando.souza\\Documents\\Github\\PortfolioApi\\Models\\Models.csproj",
+  "projectFilePath": "/mnt/c/Users/fernando.souza/Documents/Github/PortfolioApi/Models/Models.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\fernando.souza\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "/home/vinicius/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

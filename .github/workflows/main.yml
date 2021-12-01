@@ -1,4 +1,4 @@
-name: Build and Deploy Heroku App with Docker
+name: Portfolio API
 on: [push]
 jobs:
   build:
