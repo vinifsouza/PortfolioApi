@@ -19,6 +19,7 @@ namespace Portfolio.Api.Model.Github.Project
         [JsonProperty("topics")]
         public IEnumerable<string>? Topics { get; set; }
 
+        public IEnumerable<string>? Icons { get; set; }
         public string Logo { get; set; } = "";
     }
 }
