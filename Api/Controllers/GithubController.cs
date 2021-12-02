@@ -19,10 +19,16 @@ namespace PortfolioApi.Controllers
         }
 
         [HttpGet("{userId}", Name = "GetRepositories")]
-        public async Task<ActionResult<List<GithubProject>>> Get(string userId)
+        public async Task<ActionResult<IEnumerable<GithubProject>>> Get(string userId)
         {
             var response = await _facade.GetRepositories(userId);
-            return Ok(response);
+
+            if (response.Count() != 0)
+            {
+                return Ok(response);
+            }
+
+            return NoContent();
         }
     }
 }
