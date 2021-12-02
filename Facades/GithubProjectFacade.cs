@@ -22,6 +22,7 @@ namespace Portfolio.Api.Facades
                 var readme = await _getReadmeAsync(userId, repo.Name, repo.Branch);
                 repo.Icons = _getIconsFromReadme(readme);
                 repo.Logo = _getLogoFromReadme(readme);
+                repo.Title = _getTitle(readme);
             }
 
             return filter;
@@ -68,6 +69,18 @@ namespace Portfolio.Api.Facades
             var logoUrl = filterByInitializer.Select(w => w.Substring(TARGET_FLAG.Length)).ElementAt(0);
 
             return logoUrl;
+        }
+
+        private string _getTitle(string readme)
+        {
+            const string INITIALIZER_FLAG = "# ";
+
+            string splitByBreakline = readme.Split('\n').ElementAt(0);
+
+            int startPosition = splitByBreakline.IndexOf(INITIALIZER_FLAG) + 2;
+            string subWithStart = splitByBreakline.Substring(startPosition);
+
+            return subWithStart;
         }
     }
 }

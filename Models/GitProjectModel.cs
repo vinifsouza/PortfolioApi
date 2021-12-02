@@ -7,10 +7,15 @@ namespace Portfolio.Api.Model.Github.Project
         [JsonProperty("name")]
         public string Name { get; set; } = "";
 
+        public string Title { get; set; } = "";
+
         [JsonProperty("default_branch")]
         public string Branch { get; set; } = "";
 
         [JsonProperty("homepage")]
+        public string? Homepage { get; set; }
+
+        [JsonProperty("html_url")]
         public string? Url { get; set; }
 
         [JsonProperty("description")]
