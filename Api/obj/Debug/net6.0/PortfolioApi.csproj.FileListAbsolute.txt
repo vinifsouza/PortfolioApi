@@ -68,3 +68,4 @@ C:\Users\fernando.souza\Documents\Github\PortfolioApi\Api\obj\Debug\net6.0\Portf
 C:\Users\fernando.souza\Documents\Github\PortfolioApi\Api\obj\Debug\net6.0\ref\PortfolioApi.dll
 C:\Users\fernando.souza\Documents\Github\PortfolioApi\Api\obj\Debug\net6.0\PortfolioApi.pdb
 C:\Users\fernando.souza\Documents\Github\PortfolioApi\Api\obj\Debug\net6.0\PortfolioApi.genruntimeconfig.cache
+C:\Users\fernando.souza\Documents\Github\PortfolioApi\Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll

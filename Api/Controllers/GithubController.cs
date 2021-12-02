@@ -1,7 +1,8 @@
-using Portfolio.Api.Model.Github.Project;
+using Portfolio.Api.Model.Github.Repository;
 using Portfolio.Api.Facades;
 
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace PortfolioApi.Controllers
 {
@@ -18,10 +19,21 @@ namespace PortfolioApi.Controllers
             _logger = logger;
         }
 
-        [HttpGet("{userId}", Name = "GetRepositories")]
-        public async Task<ActionResult<IEnumerable<GithubProject>>> Get(string userId)
+        [HttpGet("{username}", Name = "GetRepositories")]
+        [SwaggerOperation(
+            Summary = "Search repositories within pattern conditions",
+            Description = "Pattern instructions coming soon",
+            OperationId = "GetRepositories",
+            Tags = new[] { "Repository" }
+        )]
+        [SwaggerResponse(200, "At least one repository found", typeof(GithubRepository))]
+        [SwaggerResponse(204, "No repository found")]
+        public async Task<ActionResult<IEnumerable<GithubRepository>>> Get(
+            [FromRoute(Name = "username"), SwaggerParameter("Github username", Required = true)] string username,
+            [FromQuery(Name = "skill"), SwaggerParameter("Filter request by skill", Required = false)] string? skill = ""
+        )
         {
-            var response = await _facade.GetRepositories(userId);
+            var response = await _facade.GetRepositories(username, skill);
 
             if (response.Count() != 0)
             {

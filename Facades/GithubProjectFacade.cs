@@ -1,5 +1,5 @@
-﻿using Portfolio.Api.Model.Github.Project;
-using Portfolio.Api.Service.Github.Project;
+﻿using Portfolio.Api.Model.Github.Repository;
+using Portfolio.Api.Service.Github.Repository;
 
 using System.Threading.Tasks;
 using RestEase;
@@ -9,12 +9,15 @@ namespace Portfolio.Api.Facades
 {
     public class GithubFacade
     {
-        public async Task<IEnumerable<GithubProject>> GetRepositories(string userId)
+        public async Task<IEnumerable<GithubRepository>> GetRepositories(
+            string userId,
+            string? skillToFilter
+        )
         {
             IGitHubApi api = RestClient.For<IGitHubApi>("https://api.github.com");
-            IEnumerable<GithubProject> repositories = await api.GetRepoAsync(userId);
+            IEnumerable<GithubRepository> repositories = await api.GetRepoAsync(userId);
 
-            var filter = _filterListablesProjectsToPortfolio(repositories);
+            var filter = _filterListablesProjectsToPortfolio(repositories, skillToFilter);
 
             for (int idx = 0; idx < filter.Count(); idx++)
             {
@@ -28,10 +31,19 @@ namespace Portfolio.Api.Facades
             return filter;
         }
 
-        private IEnumerable<GithubProject> _filterListablesProjectsToPortfolio(IEnumerable<GithubProject> repositories)
+        private IEnumerable<GithubRepository> _filterListablesProjectsToPortfolio(
+            IEnumerable<GithubRepository> repositories,
+            string? skillToFilter
+            )
         {
-            return repositories
-            .Where(r => r.Topics!.Contains("portfolio-content"));
+            var filter = repositories.Where(r => r.Topics!.Contains("portfolio-content"));
+
+            if (String.IsNullOrEmpty(skillToFilter))
+            {
+                return filter;
+            }
+
+            return filter.Where(r => r.Topics!.Contains(skillToFilter));
         }
 
         private async Task<string> _getReadmeAsync(string userId, string repoName, string branch)

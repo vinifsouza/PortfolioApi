@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 
-namespace Portfolio.Api.Model.Github.Project
+namespace Portfolio.Api.Model.Github.Repository
 {
-    public class GithubProject
+    public class GithubRepository
     {
         [JsonProperty("name")]
         public string Name { get; set; } = "";
