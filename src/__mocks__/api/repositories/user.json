@@ -1,0 +1,39 @@
+[{
+    "name": "acrab-scraper",
+    "title": "Acrab Scraper",
+    "branch": "master",
+    "homepage": "https://vinifsouza.github.io/acrab-scraper",
+    "url": "https://github.com/vinifsouza/acrab-scraper",
+    "description": "Rastreador de preços e produtos.",
+    "topics": [
+        "backend",
+        "portfolio-content",
+        "preview"
+    ],
+    "icons": [
+        "vscode-icons:file-type-python",
+        "vscode-icons:file-type-node",
+        "vscode-icons:file-type-typescript-official"
+    ],
+    "logo": "https://i.imgur.com/ix76Nzt.png"
+},
+{
+    "name": "algashopping",
+    "title": "Portfolio",
+    "branch": "master",
+    "homepage": "https://vinifsouza.github.io/algashopping/",
+    "url": "https://github.com/vinifsouza/algashopping",
+    "description": "Projeto para estudo sobre React. Clone AlgaWorks - Desafio React.",
+    "topics": [
+        "frontend",
+        "portfolio-content",
+        "react",
+        "reactjs"
+    ],
+    "icons": [
+        "vscode-icons:file-type-reactts",
+        "logos:javascript"
+    ],
+    "logo": "https://i.imgur.com/Kjc7lfV.png"
+}
+]
