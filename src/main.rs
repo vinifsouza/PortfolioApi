@@ -28,9 +28,9 @@ fn handle_connection(mut stream: TcpStream) {
     let req_path: &str = split_req_path[1];
 
     match req_path {
-        "/"=> { response = index_controller() },
-        "/api/repositories/vinifsouza"=> { response = api_repositories_controller() },
-        _=> response = json_response(STATUS_NOT_FOUND, "".to_string())
+        "/" => { response = index_controller() },
+        "/api/repositories/vinifsouza" => { response = api_repositories_controller() },
+        _ => response = json_response(STATUS_NOT_FOUND, "".to_string())
     }
 
     stream.write_all(response.as_bytes()).unwrap();
